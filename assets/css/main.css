@@ -224,12 +224,25 @@ input, select, textarea {
 	}
 	h1 span.flash {
 		font-family: 'Faster One', Helvetica, sans-serif;
-		font-size: 5rem;
+		font-size: 3rem;
 		font-weight: normal;
 		letter-spacing: -0.05em;
 		line-height: 1.1;
 		margin: 0 0 1.5rem 0;
 		text-transform: none;
+	}
+	
+	h1 span.HnC {
+		font-size: 2rem;
+	}
+	
+	@media (min-width:  40.063em) {
+		h1 span.flash {
+			font-size: 5rem;
+		}
+		h1 span.HnC {
+			font-size: 5rem;
+		}
 	}
 
 	h2 {
@@ -253,7 +266,7 @@ input, select, textarea {
 	h6 {
 		font-size: 0.625rem;
 	}
-
+	
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -279,7 +292,7 @@ input, select, textarea {
 		}
 		
 		#wrapper > section > header h2.telephone {
-			font-size: 34px!important;
+			font-size: 28px!important;
 		}
 
 	}
@@ -2538,11 +2551,9 @@ input, select, textarea {
 		}
 
 			.image.fill img {
-				height: 100%;
-				left: 0;
-				position: absolute;
-				top: 0;
-				width: 100%;
+				position: relative;
+				width: 20rem;
+				margin: auto;
 			}
 
 /* List */
