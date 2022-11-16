@@ -2552,7 +2552,7 @@ input, select, textarea {
 
 			.image.fill img {
 				position: relative;
-				width: 20rem;
+				width: auto;
 				margin: auto;
 			}
 
